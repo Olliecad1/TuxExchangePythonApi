@@ -30,19 +30,5 @@ TuxexchangeHeader1 = {'Sign':signature1, 'Key': PublKey}
 
 tuxgetaddresses = requests.post(tuxURL, data=newquery, headers=TuxexchangeHeader1, timeout=15).json()
 
-print tuxgetbalance
-
-#print 'Btc balance: ' + tuxgetbalance['BTC']['balance']
-
-#print 'Eth Balance: ' + tuxgetbalance['ETH']['balance']
-
-print tuxgetaddresses
-
-#print '\n' + '\n'
-
-#ethTotal = tuxgetaddresses[0]['total']
-
-#xcpTotal = tuxgetaddresses[1]['total']
-
 
 

@@ -8,4 +8,4 @@
 
 ## The First and most important is adding your pub and priv keys to the private api script.
 
-
+## There is a lot you can do with tux exchange api check [Tux exchange api Docs](https://tuxexchange.com/docs)
